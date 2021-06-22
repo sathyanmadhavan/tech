@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARTIFICAL INTELLEGENCE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="far fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html.html">ABOUT US</a></li>
+                    <li><a href="future visions.html.html">FUTURE VISIONS</a></li>
+                    <li><a href="contact.html.html">CONTACT</a></li>
+                </ul>
+                <button type="button" class="btn">SIGN UP</button>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>ABOUT US</h1>
+    </section>
+    <!-------------ABOUT US CONTENT------------>
+
+    <div class="row">
+        <div class="about-col">
+            <h1>WE ARE THE UPCOMING FUTURE.</h1>
+            <p>AS SAID EARLER IN TODAY'S WORLD TECHNOLOGY IS EVERYWHERE WE HAVE TO MAKE USE OF IT.
+             OUR COMPANY DEVELOP MORE ROBOTS,DRONES,AS WELL AS WE OFFER COURSES FOR SCHOOL
+             STUDENTS EVERY MONTH.WE ARE EAGER TO WORK HARD AND DEVELOP TECHNOLOGIES
+            WE HEVE MORE PLANS TOWARS MODERN FUTURE.WE HAVE LOT OF OPPOURTUMITIES TO YOUNGSTERS HOPE YOU COULD 
+            SIGN UP </p>
+            <a href="" class="hero red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="drone 2.jpg">
+        </div>
+    </div>
+
+    <!----------about us---------->
+
+
+<!--------future visions------->
+
+
+
+<!------footer--------->
+
+<section class="footer">
+    <h4>CONTACT US</h4>
+    <p>FOR MORE INFORMATIONS CONTACT US THROUGH</p>
+    <div class="icons">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-linkedin"></i>
+    </div>
+    <p>MADE WITH <i class="far fa-heart"></i>BY SATHYAN</p>
+</section>
+
+
+<!--------javascript--------->
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right= "0";
+    }
+    function hideMenu(){
+        navLinks.style.right= "-200px"
+    }
+</script>

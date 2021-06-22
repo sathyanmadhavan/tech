@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARTIFICAL INTELLEGENCE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                    <i class="far fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html.html">ABOUT US</a></li>
+                    <li><a href="future visions.html.html">FUTURE VISIONS</a></li>
+                    <li><a href="contact.html.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="banner-title">
+            <h1>ARTIFICIAL <span>INTELLEGENCE</span></h1>
+            <p>USAGE OF MODERN TECHNOLOGIES IN MODERN WORLD</p>
+            <a href="" class="hero">VISIT US TO KNOW MORE</a>
+        </div>
+    </section>
+
+    <!----------about us---------->
+
+    <section class="ABOUT">
+        <h1>ABOUT US</h1>
+        <p>WE ARE A START UP COMPANY TO DEVELOP MODREN TECHNOLOGIES</p>
+    <div class="row">
+        <div class="ABOUT-col">
+            <h3>OUR MOTIVE</h3>
+            <p>OUR MOTIVE IS TO PEPOLE GET USED TO TECHNOLOGIES.WE ARE ALSO OFFERING COURSES IN DATA SCIENCE,AOT ETC.</p>
+        </div>
+        <div class="ABOUT-col">
+            <h3>FUTURE PLAN</h3>
+            <p>WE HOPE TO OFFER MORE COURSES TO YOUNGER GENERATIONS AS WELL AS ADULTS</p>
+        </div>
+        <div class="ABOUT-col">
+            <h3>GOT TALENT!!</h3>
+            <P>YOU CAN ALSO SIGNUP OUR PAGE FOR OPPOURTUNIES WE NEED MORE FRESHERS </P>
+        </div>
+    </div>
+    </section>
+</body>
+
+<!--------future visions------->
+<section class="FUTURE">
+    <h1>FUTURE VISIONS</h1>
+    <p>OUR FUTURE PLAN TOWARDS TECHNOLOGIES</p>
+    <div class="row">
+        <div class="FUTURE-col">
+            <img src="drone.jpg">
+            <div class="layer">
+                <h3>DRONE</h3>
+            </div>
+        </div>
+        <div class="FUTURE-col">
+            <img src="robot.jpg">
+            <div class="layer">
+                <h3>ROBOT</h3>
+            </div>
+        </div>
+        <div class="FUTURE-col">
+            <img src="chip.jpg">
+            <div class="layer">
+                <h3>UPCOMING IDEAS</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!------footer--------->
+
+<section class="footer">
+    <h4>CONTACT US</h4>
+    <p>FOR MORE INFORMATIONS CONTACT US THROUGH</p>
+    <div class="icons">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-linkedin"></i>
+    </div>
+    <p>MADE WITH <i class="far fa-heart"></i>BY SATHYAN</p>
+</section>
+</html>
+
+
+<!--------javascript--------->
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right= "0";
+    }
+    function hideMenu(){
+        navLinks.style.right= "-200px"
+    }
+</script>
